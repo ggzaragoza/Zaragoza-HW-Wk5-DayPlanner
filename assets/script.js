@@ -85,11 +85,24 @@ function colorCode() {
     } else {
         textarea5P.addClass("past");
     }
-
-}
+};
 
 $(document).ready(function () {
     colorCode();
 });
 
-var text = $(".description").value;
+$('.description').each(function() {
+    var eventTime = $(this).attr("id");
+    $(this).val(localStorage.getItem(eventTime)); 
+});
+
+var saveButton = $('.saveBtn');
+var descriptionArea = $('.description');
+
+saveButton.each(function() {
+    $(this).on("click", function() {
+        var eventTime = $(this).prev().attr("id");
+        var eventDescription = $(this).prev().val();
+        localStorage.setItem(eventTime, eventDescription);
+    })
+});
