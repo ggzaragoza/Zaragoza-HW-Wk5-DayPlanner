@@ -6,4 +6,4 @@ represent whether each event has passed, is currently ongoing, or will happen la
 
 <img width="800" alt="Screen Shot 2021-08-28 at 1 59 17 PM" src="https://user-images.githubusercontent.com/86588318/131228155-3139b6dd-02c9-45cc-addc-c297695bac7a.png">
 
-Deployed application: <a href="https://ggzaragoza.github.io/Zaragoza-HW-Wk5-DayPlanner/>https://ggzaragoza.github.io/Zaragoza-HW-Wk5-DayPlanner/</a>
+Deployed application: <a href="https://ggzaragoza.github.io/Zaragoza-HW-Wk5-DayPlanner/">https://ggzaragoza.github.io/Zaragoza-HW-Wk5-DayPlanner/</a>
