@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Barlow', sans-serif;
     font-size: 16px;
     line-height: 1;
 }
@@ -8,8 +8,6 @@ input {
     background: transparent;
     border: none;
     resize: none;
-    color: #000000;
-    border-left: 1px solid black;
     padding: 10px;
 }
   
@@ -17,8 +15,6 @@ input {
     text-align: center;
     background-color: transparent;
     color: black;
-    border-radius: 0;
-    border-bottom: 1px solid #2ea5dd;
 }
   
 .description {
@@ -35,39 +31,52 @@ input {
     height: 80px;
     border-top: 1px solid white;
 }
+
+h1, h3 {
+    color: #6ed340;
+}
+
+h3 {
+    font-size: 34px;
+}
   
 .hour {
     background-color: #ffffff;
-    color: #000000;
-    border-top: 1px dashed #000000;
+    color: #58595b;
+    font-weight: lighter;
 }
   
 .past {
     background-color: #d3d3d3;
-    color: #58595b;
+    color: #9c9c9c;
+    border-bottom: 5px solid #c2c2c2;
 }
   
 .present {
-    background-color: #77dd77;
+    background-color: #80ec4e;
     color: #58595b;
+    font-weight: bold;
+    border-bottom: 5px solid #6ed340;
 }
   
 .future {
-    background-color: #2ea5dd;
+    background-color: #fff3a8;
     color: #58595b;
+    font-weight: bold;
+    border-bottom: 5px solid #e4d67b;
 }
   
 .saveBtn {
-    border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #06aed5;
-    color: white;
+    background-color: white;
+    color: #2ea5dd;
     cursor: pointer;
 }
-  
-.saveBtn i:hover {
-    font-size: 20px;
-    transition: all 0.3s ease-in-out;
+
+.saveBtn img {
+    height: 30px;
+    transition: transform .1s;
 }
   
+.saveBtn img:hover {
+    transform: scale(1.25);
+}
